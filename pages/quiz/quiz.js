@@ -54,9 +54,9 @@ function montarPergunta() {
                     <div class="barra_progresso">
                         <div style="width: ${pergunta * 10}%"></div>
                     </div>
-                </section>
+        </section>
 
-                <section class="alternativas">
+            <section class="alternativas">
                     <form action="">
                         <label for="alternativa_a">
                             <input type="radio" id="alternativa_a" name="altenativa" value="${alterarSinais(quiz.questions[pergunta-1].options[0])}">

@@ -36,7 +36,7 @@ function inserirResultado() {
 
         <strong>${pontos}</strong>
 
-        <p>8 de 10</p>
+        <p>${pontos} de 10</p>
     `
 }
 
